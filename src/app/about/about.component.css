@@ -1,0 +1,20 @@
+.home_about .vision {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+}
+.home_about .vision::before {
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    content: "\f058";
+    font-family: 'FontAwesome';
+    color: var(--red);
+    font-size: 25px;
+}
+.home_about .vision:last-child {
+    margin-bottom: 0px;
+}
+.home_about .vision h5 {
+    font-size: 14px;
+}

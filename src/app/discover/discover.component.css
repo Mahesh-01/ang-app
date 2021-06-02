@@ -1,0 +1,89 @@
+.discover .dcard{
+    text-align: center;
+    background-color: #fff;
+    padding:15px 10px;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all .15s ease-in-out;
+}
+.discover .dcard h4{
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
+}
+.discover .dcard p{
+    color: #000;
+    font-weight: normal;
+}
+.discover .dcard a{
+    color: var(--red);
+    font-weight: 500;
+}
+.discover .dcard .icon{
+    background-color:#fff;
+    border: var(--darkgray) solid 2px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:4px;
+    margin: 0 auto;
+}
+.discover .dcard .bdr {
+    position: absolute;
+    bottom: 14px;
+    text-align: center;
+    width: 100%;
+}
+.discover .dcard .bdr strong{
+    background-color: var(--red)!important;
+    height: 2px;
+    width: 110px;
+    margin: 0 auto;
+    display: block;
+}
+.discover .dcard .img1{
+    max-width: 100%;
+    display: none;
+}
+.discover .dcard:hover .img2{
+    display: none;
+}
+.discover .dcard:hover .img1{
+    display: flex;
+}
+.discover .dcard:hover h4{
+    color: var(--red);
+    transition: all .15s ease-in-out;
+}
+.discover .dcard:hover span{
+    background-color: var(--red);
+    border-color: var(--red);
+    transition: all .15s ease-in-out;
+}
+.numbers{
+    background: url(http://cruxcreativedemo.com/orion-secure/images/numbers_bg.jpg) left center / cover no-repeat;
+    padding: 20px 0;
+    text-align: center;
+}
+.numbers .num{
+    padding: 15px 0;
+}
+.numbers .bdr{
+    border-right: var(--red) solid 2px;
+}
+.numbers h5{
+    color: var(--red);
+    font-size: 22px;
+}
+.numbers h5 span{
+    color: #000;
+}
+.numbers h6{
+    margin-bottom: 0px;
+}

@@ -1,0 +1,104 @@
+.tp_header{
+    padding: 5px 0;
+    background-color: var(--red);
+}
+.tp-social{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+}
+.tp-social li{
+    display: inline;
+    color: #fff;
+}
+.tp-social li a{
+    margin-right: 5px;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    /* border:#fff solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tp-social li a.facebook{
+    background-color: #3b5998;
+}
+.tp-social li a.linkedin{
+    background-color: #4875b4;
+}
+.tp-social li a.youtube{
+    background-color: #c63d2d;
+}
+.tp-social li a.twitter{
+    background-color: #2ca7e0;
+}
+.tp_right{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+}
+.tp_right li{
+    display: inline-block;
+    color: #fff;
+}
+.tp_right li:first-child{
+    margin-right: 10px;
+}
+.tp_right li a{
+    color: #fff;
+}
+.main_header{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 11;
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 9%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 9%);
+    background: #fff;
+}
+.main_header .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: middle;
+    content: "\f107";
+    border: inherit;
+    font-family: 'FontAwesome';
+}
+.main_header .navbar{
+    padding: .1rem 1rem;
+}
+.main_header .navbar-light .navbar-nav .nav-link{
+    color:#000;
+}
+.main_header .navbar-light .navbar-nav .nav-link:hover{
+    color: var(--red);
+}
+.main_header .btn{
+    color: #fff!important;
+    margin-left: 15px;
+    padding: 5px 10px;
+}
+.main_header .dropdown-item.active, .dropdown-item{
+    font-size: 14px;
+}
+.main_header .dropdown-item.active, .dropdown-item:hover{
+    background-color: inherit;
+    color: var(--red);
+}
+.main_header .dropdown-item.active, .dropdown-item:active{
+    background-color: inherit;
+}
+@media only screen and (min-width:992px) and (max-width:1023px){
+    .main_header .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left:.4rem;
+        padding-right:.4rem;
+    }
+    .main_header .navbar-expand-lg .navbar-nav .red-btn{
+        font-size: 14px;
+    }
+}

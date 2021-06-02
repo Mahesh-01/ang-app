@@ -1,0 +1,129 @@
+footer{
+    background: var(--gray);
+    padding-top: 40px;
+    background: hsl(210, 6%, 7%);
+    background: url(http://cruxcreativedemo.com/orion-secure/images/2.jpg) center center / cover no-repeat;
+}
+
+footer .quick_link ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+footer h6{
+    color: #ccc;
+}
+footer p{
+    color: #ccc;
+}
+footer .quick_link ul li a{
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+}
+footer .quick_link ul li a:hover{
+    color: var(--red);
+}
+footer .f_contact ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+footer .f_contact ul li{
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ccc;
+}
+footer .f_contact ul li a{
+    display: block;
+    font-weight: normal;
+    color: #ccc;
+}
+footer .f_contact ul li img{
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+footer .f-logo p{
+    margin: 15px 0 30px;
+}
+.social_media{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+}
+.social_media li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #767676;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+.social_media li a.facebook{
+    background-color: #3b5998;
+}
+.social_media li a.linkedin{
+    background-color: #4875b4;
+}
+.social_media li a.youtube{
+    background-color: #c63d2d;
+}
+.social_media li a.twitter{
+    background-color: #2ca7e0;
+}
+.social_media li a:hover{
+    background: var(--red);
+}
+.footer_sm{
+    background: #fff;
+    color: #000;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.footer_sm ul{
+    list-style: none;
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer_sm ul li a{
+    display: flex;
+    color: #000;
+    padding: 0 10px;
+}
+@media only screen and (min-width:1024px) and (max-width:1240px){
+    .main_header .navbar-light .navbar-nav .nav-link{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:767px){
+    .footer_sm ul{
+        justify-content: center;
+    }
+    footer h5{
+        margin-top: 15px;
+    }
+    footer .f_contact ul{
+        margin-top: 8px;
+    }
+    footer .quick_link ul{
+        margin-top: 8px;
+    }
+    footer h6{
+        margin-top: 15px;
+    }
+
+}

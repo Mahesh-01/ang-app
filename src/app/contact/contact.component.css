@@ -1,0 +1,8 @@
+.contact_form label {
+    color: var(--blue);
+    font-weight: 700;
+}
+.contact_form .form-control {
+    border-radius: 0px;
+    border: var(--blue) solid 1px;
+}

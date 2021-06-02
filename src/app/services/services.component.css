@@ -1,0 +1,48 @@
+.home-services{
+    background: url(http://cruxcreativedemo.com/orion-secure/images/service_bg.jpg) left center no-repeat;
+    background-size: cover;
+}
+.home-services .scard{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 7px;
+    padding:15px 10px;
+    box-shadow: #0000005e 1px 1px 5px 1px;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .15s ease;
+}
+.home-services .scard h4{
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+.home-services .scard p{
+    color: #000;
+    font-weight: normal;
+}
+.home-services .scard a{
+    color: var(--red);
+    font-weight: 500;
+}
+.home-services .scard img.img1{
+    max-width: 100%;
+    display: none;
+}
+.home-services .scard:hover .img2{
+    display: none;
+}
+.home-services .scard:hover .img1{
+    display: inline-block;
+}
+/* .home-services .scard:hover{
+    background-color: var(--gray);
+    transition: all .15s ease;
+} */
+.home-services .scard:hover h4{
+    color: var(--red);
+}
+
