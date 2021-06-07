@@ -13,6 +13,7 @@ import { ServicesComponent } from './services/services.component';
 import { DiscoverComponent } from './discover/discover.component';
 import { HomesliderComponent } from './homeslider/homeslider.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     ServicesComponent,
     DiscoverComponent,
     HomesliderComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
